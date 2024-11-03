@@ -41,5 +41,7 @@ https://github.com/materialsproject/pymatgen/security/advisories/GHSA-vgv8-5cpj-
 
 ![image](https://github.com/user-attachments/assets/7c57f734-fabb-4950-babb-a732539724cc)
 
+depois de um bom tempo de pesquisa, vou tentar montar meu exploit a partir do arquivo exemple.cif que encontramos lá e tentar explorar essa vuln
+
 
 
