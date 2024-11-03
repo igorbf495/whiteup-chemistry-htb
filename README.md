@@ -27,3 +27,19 @@ analisei e mesmo assim não sai do lugar, mas vi que CIF significa Crystallograp
 ![image](https://github.com/user-attachments/assets/e679f90e-0e15-4e51-9489-8289367f2264)
 
 
+depois de um bom tempo de pesquisa, encontrei algo interessante no CVE-2024-23346 que se refere à uma vulnerabilidade crítica no pymatgen, uma biblioteca Python de código aberto utilizada para análise de materiais. 
+
+https://ethicalhacking.uk/cve-2024-23346-arbitrary-code-execution-in-pymatgen-via-insecure/#gsc.tab=0
+
+aqui encontrei o seguinte exploit:
+
+![image](https://github.com/user-attachments/assets/87b92bb3-3eed-4849-bc76-7bae66852a49)
+
+fui pesquisar mais sobre essa vulnerabilidade desta lib pymatgen e encontrei o seguinte exploit no github:
+
+https://github.com/materialsproject/pymatgen/security/advisories/GHSA-vgv8-5cpj-qj2f
+
+![image](https://github.com/user-attachments/assets/7c57f734-fabb-4950-babb-a732539724cc)
+
+
+
