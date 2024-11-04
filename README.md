@@ -123,6 +123,8 @@ Agora eh continuar explorando, logo de cara, dei um ls para ver oq tinha nesse d
 
 ![image](https://github.com/user-attachments/assets/996d09fe-4a94-45fa-b9ed-597b33023009)
 
+Precisamos encontrar agora a flag root
+
 
 
 
