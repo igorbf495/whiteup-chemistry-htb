@@ -91,7 +91,12 @@ acessei o db usando o sqlite3 e encontramos o seguinte:
 
 ![image](https://github.com/user-attachments/assets/515a2d39-9fc8-444c-b331-c4d252febfda)
 
-users e passwords criptografados, provavelmente uma hash md5, vamos descobrir se nosso velho amigo crackstation.net da conta dessas
+users e passwords criptografados, provavelmente uma hash md5, vamos descobrir se nosso velho amigo crackstation.net da conta dessas.
+
+apos algumas tentativas, so consegui quebrar esse hash que corresponde ao user "rosa":
+
+![image](https://github.com/user-attachments/assets/64e4bf5e-cd0a-4aa8-b015-669e19dce193)
+
 
 
 
