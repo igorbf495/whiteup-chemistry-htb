@@ -55,6 +55,16 @@ _space_group_magn.transform_BNS_Pp_abc  'a,b,[d for d in ().__class__.__mro__[1]
 
 vou tentar adaptar o arquivo exemple.cif e transformá-lo em um exploit.
 
+Depois de muitas tentativas e erros, finalmente consegui montar meu exploit. Ficou da seguinte forma:
+
+![image](https://github.com/user-attachments/assets/2ecac304-ac7f-42bf-bfde-a2e8e7a9e7ed)
+
+o intuito desse exploit eh ver se conseguimos um RCE (execução de código remoto) no servidor que processa arquivos .cif. O exploit injeta um comando de shell reverso que tenta se conectar de volta ao servidor do atacante (eu), fornecendo uma shell remota
+
+
+
+
+
 
 
 
