@@ -131,7 +131,12 @@ Depois de muito tempo procurando e nao encontrar nada, resolvi usar o nmap mais 
 
 Acessei na web e fui analisar.
 
-era uma outra aplicacao rodando, que coletava dados e exibia em graficos. Entao iniciei minha pesquisa nessa aplicacao usando ferramentas e scripts de coleta de dados.
+era uma outra aplicacao rodando, que coletava dados e exibia em graficos. Entao iniciei minha pesquisa nessa aplicacao usando ferramentas e scripts de coleta de dados. Depois de ter pesquisado batante, usei o whatweb para analistar as tecnologias utilizadas.
+
+![image](https://github.com/user-attachments/assets/d051fdaf-fc97-4503-88ed-da17a684107a)
+
+Encontramos servicos
+
 
 
 
