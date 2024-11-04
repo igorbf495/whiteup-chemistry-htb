@@ -1,5 +1,8 @@
 # whiteup-chemistry-htb
 
+OBS: CONTEM SPOILER !!!!! SE VC ESTIVER FAZENDO ESSE CTF E NAO QUISER SABER ONDE ESTAO AS FLAGS SEM NEM AO MENOS TENTAR, NAO TERMINE DE LER ESSE WHITEUP
+----
+
 
 alvo: 10.10.11.38
 
@@ -96,6 +99,29 @@ users e passwords criptografados, provavelmente uma hash md5, vamos descobrir se
 apos algumas tentativas, so consegui quebrar esse hash que corresponde ao user "rosa":
 
 ![image](https://github.com/user-attachments/assets/64e4bf5e-cd0a-4aa8-b015-669e19dce193)
+
+vamos testar o login na aplicacao com esse user e senha que descobrimos
+
+![image](https://github.com/user-attachments/assets/20cbf01c-e46a-4133-beca-13caa9306fbe)
+
+logamos.
+![image](https://github.com/user-attachments/assets/5a00ef04-2325-4261-95ef-3513af3e5696)
+
+sabe mais onde podemos tentar logar com esse user? Exatamente.
+
+Lembra quando usamos o nmap para procurar por portas e servicos abertos? A porta ssh esta open.
+
+![image](https://github.com/user-attachments/assets/35e5715e-4419-4c32-8e2f-007f94d394ed)
+
+Dei enter e logo de cara veio aquela pergunta de yes or no, entao, esse user existe. Agora vamos colocar a hash que quebramos.
+
+![image](https://github.com/user-attachments/assets/0ff93f72-08bd-4c46-8b98-ab7da1c5fd60)
+
+Estamos dentro. Conseguimos acessar o servidor da aplicacao via ssh.
+
+Agora eh continuar explorando, logo de cara, dei um ls para ver oq tinha nesse dir e finalmente... Encontramos a primeira flag:
+
+![image](https://github.com/user-attachments/assets/996d09fe-4a94-45fa-b9ed-597b33023009)
 
 
 
