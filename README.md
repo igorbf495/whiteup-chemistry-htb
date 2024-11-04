@@ -81,6 +81,20 @@ conseguimos executar comandos no sistema, encontramos uma vulnerabilidade RCE, e
 ![image](https://github.com/user-attachments/assets/744893cc-a2b1-4c8b-9df7-1846ac064779)
 
 
+apos explorar os diretorios, o unico arquivo suspeito que encontrei foi um database.db
+
+![image](https://github.com/user-attachments/assets/1d22215b-88e0-406a-b7e3-46745f19eb04)
+
+enviei esse arquivo para meu pc, para analisar.
+
+acessei o db usando o sqlite3 e encontramos o seguinte:
+
+![image](https://github.com/user-attachments/assets/515a2d39-9fc8-444c-b331-c4d252febfda)
+
+users e passwords criptografados, provavelmente uma hash md5, vamos descobrir se nosso velho amigo crackstation.net da conta dessas
+
+
+
 
 
 
