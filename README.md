@@ -59,9 +59,26 @@ Depois de muitas tentativas e erros, finalmente consegui montar meu exploit. Fic
 
 ![image](https://github.com/user-attachments/assets/2ecac304-ac7f-42bf-bfde-a2e8e7a9e7ed)
 
-o intuito desse exploit eh ver se conseguimos um RCE (execução de código remoto) no servidor que processa arquivos .cif. O exploit injeta um comando de shell reverso que tenta se conectar de volta ao servidor do atacante (eu), fornecendo uma shell remota
+o intuito desse exploit eh ver se conseguimos um RCE (execução de código remoto) no servidor que processa arquivos .cif. O exploit injeta um comando de shell reverso que tenta se conectar de volta ao servidor do atacante (eu), fornecendo uma shell remota.
+
+Deixei meu servidor escutando na porta que coloquei no exploit:
+
+![image](https://github.com/user-attachments/assets/f0a62b3a-b464-4d44-9ee5-ffec766eb42d)
+
+agora, vamos fazer o upload do meu arquivo exemple.cif (exploit).
 
 
+![image](https://github.com/user-attachments/assets/0d08ec55-1fe4-474a-80e2-94e8fa7242fc)
+
+arquivo upado, agora, precisamos executar ele. Para isso, irei clicar bo botao view para abrir(executar) o arquivo, e ver se tivemos respostas.
+
+nao deu certo, mas depois de alguns ajustes consegui.
+
+![image](https://github.com/user-attachments/assets/03d862d3-0e99-4d58-b515-02ab5cb6289e)
+
+conseguimos executar comandos no sistema, encontramos uma vulnerabilidade RCE, estamos conectados no alvo atravez de um reverse shell. Agora vamo explorar diretorios e arquivos do servidor.
+
+![image](https://github.com/user-attachments/assets/744893cc-a2b1-4c8b-9df7-1846ac064779)
 
 
 
