@@ -135,7 +135,29 @@ era uma outra aplicacao rodando, que coletava dados e exibia em graficos. Entao 
 
 ![image](https://github.com/user-attachments/assets/d051fdaf-fc97-4503-88ed-da17a684107a)
 
-Encontramos servicos
+Encontramos tecnologias utilizadas pelo servidor e suas versões. Vimos que o servidor http é python e a biblioteca é aiohttp/3.9.1. Então fui pedir ajuda ao pai dos burros (Google) para ver se tinha algum cve dessa lib do python.
+
+![image](https://github.com/user-attachments/assets/583a7dff-e576-4b4e-a5e8-d26b33c5d4f5)
+
+Encontrei o seguinte cve:
+
+https://github.com/z3rObyte/CVE-2024-23334-PoC
+
+peguei o exploit desse cve, modifiquei de acordo com o meu cenário e executei.
+
+![image](https://github.com/user-attachments/assets/c749bcaa-36d4-448e-a1e2-21c132fbe039)
+
+Conseguimos burlar e obtvemos a flag root
+
+
+
+
+
+
+
+
+
+
 
 
 
