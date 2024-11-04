@@ -147,25 +147,5 @@ peguei o exploit desse cve, modifiquei de acordo com o meu cenário e executei.
 
 ![image](https://github.com/user-attachments/assets/c749bcaa-36d4-448e-a1e2-21c132fbe039)
 
-Conseguimos burlar e obtvemos a flag root
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+consegui burlar o sistema e finalmente obtive a flag root.
 
