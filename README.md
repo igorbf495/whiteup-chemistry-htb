@@ -123,7 +123,16 @@ Agora eh continuar explorando, logo de cara, dei um ls para ver oq tinha nesse d
 
 ![image](https://github.com/user-attachments/assets/996d09fe-4a94-45fa-b9ed-597b33023009)
 
-Precisamos encontrar agora a flag root
+Precisamos encontrar agora a flag root.
+
+Depois de muito tempo procurando e nao encontrar nada, resolvi usar o nmap mais uma vez e encontrei algumas portas abertas localmente. Entao fiz um tunelamento ssh para permitir meu acesso `a um servico que esta disponivel apenas localmente no host como se ele estivesse rodando em minha maquina:
+
+![image](https://github.com/user-attachments/assets/452bea69-1b8a-44c0-a60a-74e5bcba6226)
+
+Acessei na web e fui analisar.
+
+era uma outra aplicacao rodando, que coletava dados e exibia em graficos. Entao iniciei minha pesquisa nessa aplicacao usando ferramentas e scripts de coleta de dados.
+
 
 
 
